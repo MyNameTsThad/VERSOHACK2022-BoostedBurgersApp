@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VeryCoolTeamApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/otherpurple1</item>
+        <item name="colorPrimaryVariant">@color/otherpurple2</item>
+        <item name="colorOnPrimary">@color/otherpurple2</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple1</item>
+        <item name="colorSecondaryVariant">@color/purple2</item>
+        <item name="colorOnSecondary">@color/purple3</item>
+        <!-- Status bar color. -->
+        <item name="colorControlNormal">@color/white</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AddToCartDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="theme">@style/AddToCartStyle</item>
+    </style>
+    <style name="AddToCartStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="Theme.VeryCoolTeamApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.VeryCoolTeamApp.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.VeryCoolTeamApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
